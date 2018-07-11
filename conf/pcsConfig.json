@@ -1,0 +1,12 @@
+{
+    "workflows": [{
+            "workflowName": "pcs",
+            "workflowFilename": "pcsWorkflow.json"
+        }],
+    "producers": [{
+		"type": "file",
+		"output.directory": "json_logs",
+		"file.prefix": "MYPREFIX_",
+		"file.extension":".json"
+    }]
+}

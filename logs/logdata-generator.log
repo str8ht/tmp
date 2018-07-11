@@ -1,0 +1,39 @@
+2018-07-11 00:30:03,388 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-11 00:30:03,388 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-11 00:30:03,529 INFO n.a.d.j.g.JsonDataGenerator [main] Adding File Logger with properties: {type=file, output.directory=json_logs, file.prefix=MYPREFIX_, file.extension=.json}
+2018-07-11 00:30:03,529 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-11 00:30:03,529 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-11 00:30:03,592 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-11 00:30:03,607 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-11 00:30:05,567 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:07,313 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:08,380 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:09,598 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:11,151 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:12,414 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:13,723 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:14,965 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:16,495 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:17,960 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:19,460 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:20,957 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:22,779 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:24,193 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:25,345 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-11 00:30:25,642 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-11 00:30:25,642 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation

@@ -1,0 +1,25 @@
+{"timestamp":1531274413706,"system":"BADGE","actor":"bob","action":"ENTER","objects":["Building 1"],"location":"45.5,44.3","message":"Entered Building 1"}
+{"timestamp":1531274417468,"system":"AD","actor":"bob","action":"LOGIN","objects":["workstation1"],"location":null,"message":"Logged in to workstation 1"}
+{"timestamp":1531274420866,"system":"AUDIT","actor":"bob","action":"COPY","objects":["/data/file1.txt","/share/mystuff/file2.txt"],"location":null,"message":"Printed /data/file1.txt"}
+{"timestamp":1531274423222,"system":"AUDIT","actor":"bob","action":"PRINT","objects":["/data/file1.txt","/share/mystuff/file2.txt"],"location":null,"message":"Printed /data/file1.txt"}
+{"timestamp":1531274426570,"system":"AUDIT","actor":"bob","action":"PRINT","objects":["/data/file1.txt","/share/mystuff/file2.txt"],"location":null,"message":"Printed /data/file1.txt"}
+{"timestamp":1531274429293,"system":"AUDIT","actor":"bob","action":"OPEN","objects":["/data/file1.txt","/share/mystuff/file2.txt"],"location":null,"message":"Printed /data/file1.txt"}
+{"timestamp":1531274432526,"system":"AD","actor":"bob","action":"LOGOUT","objects":["workstation1"],"location":null,"message":"Logged out of workstation 1"}
+{"timestamp":1531274435024,"system":"BADGE","actor":"bob","action":"EXIT","objects":["Building 1"],"location":"45.5,44.3","message":"Exited Building 1"}
+{"timestamp":1531274448089,"system":"BADGE","actor":"bob","action":"ENTER","objects":["Building 1"],"location":"45.5,44.3","message":"Entered Building 1"}
+{"timestamp":1531274450445,"system":"AD","actor":"bob","action":"LOGIN","objects":["workstation1"],"location":null,"message":"Logged in to workstation 1"}
+{"timestamp":"2018-07-10T22:26:46.649Z","style":"KUNG_FU","action":"JUMP","weapon":"STAFF","target":"LEGS","strength":6.3418}
+{"timestamp":"2018-07-10T22:26:47.655Z","style":"KUNG_FU","action":"JUMP","weapon":"ROPE","target":"LEGS","strength":5.9898}
+{"timestamp":"2018-07-10T22:26:49.274Z","style":"WUSHU","action":"KICK","weapon":"ROPE","target":"ARMS","strength":4.699}
+{"timestamp":"2018-07-10T22:26:50.396Z","style":"WUSHU","action":"JUMP","weapon":"CHAIR","target":"LEGS","strength":6.2166}
+{"timestamp":"2018-07-10T22:26:51.594Z","style":"WUSHU","action":"PUNCH","weapon":"ROPE","target":"LEGS","strength":2.7986}
+{"timestamp":"2018-07-10T22:26:52.863Z","style":"KUNG_FU","action":"BLOCK","weapon":"ROPE","target":"HEAD","strength":6.8651}
+{"timestamp":"2018-07-10T22:29:36.676Z","Bank Name":"BICCUSEE","action":"PUNCH","weapon":"BROAD_SWORD","target":"LEGS","strength":9.2827}
+{"timestamp":"2018-07-10T22:29:38.420Z","Bank Name":"BICCCDBB","action":"JUMP","weapon":"STAFF","target":"ARMS","strength":8.816}
+{"timestamp":"2018-07-10T22:29:39.926Z","Bank Name":"BICCUSEE","action":"KICK","weapon":"CHAIR","target":"LEGS","strength":8.422}
+{"timestamp":"2018-07-10T22:29:41.609Z","Bank Name":"BICCCDBB","action":"BLOCK","weapon":"STAFF","target":"HEAD","strength":4.2736}
+{"Bank Name":"BICCCDBB","action":"BLOCK","weapon":"ROPE","target":"BODY","strength":5.3561}
+{"Bank Name":"BICCCDBB","action":"KICK","weapon":"STAFF","target":"LEGS","strength":6.6441}
+{"Bank Name":"BICCCDBB","action":"BLOCK","weapon":"STAFF","target":"ARMS","strength":4.5863}
+{"Bank Name":"BICCCDBB","action":"JUMP","weapon":"ROPE","target":"HEAD","strength":1.6773}
+{"Bank Name":"BICCCDBB","action":"JUMP","weapon":"CHAIR","target":"ARMS","strength":9.3698}

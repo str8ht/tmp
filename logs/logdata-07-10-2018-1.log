@@ -1,0 +1,447 @@
+2018-07-10 22:00:13,487 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ exampleSimConfig.json ]
+2018-07-10 22:00:13,487 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ exampleSimConfig.json ]
+2018-07-10 22:00:13,628 INFO n.a.d.j.g.JsonDataGenerator [main] Adding Log4JLogger Producer
+2018-07-10 22:00:13,628 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ test,exampleWorkflow.json ]
+2018-07-10 22:00:13,628 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 22:00:13,706 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 22:00:17,468 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 0.0 events/sec
+2018-07-10 22:00:20,866 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 0.0 events/sec
+2018-07-10 22:00:32,526 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 0.0 events/sec
+2018-07-10 22:00:35,024 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 0.0 events/sec
+2018-07-10 22:00:38,481 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 0.0 events/sec
+2018-07-10 22:00:50,445 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 0.0 events/sec
+2018-07-10 22:00:51,514 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 22:00:51,515 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
+2018-07-10 22:00:51,519 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( test ) generated 1.0 events/sec
+2018-07-10 22:26:46,435 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 22:26:46,436 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 22:26:46,568 INFO n.a.d.j.g.JsonDataGenerator [main] Adding Log4JLogger Producer
+2018-07-10 22:26:46,575 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 22:26:46,575 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 22:26:46,646 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 22:26:46,646 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 22:26:46,646 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 22:26:46,646 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 22:26:46,646 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 22:26:46,647 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 22:26:46,647 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 22:26:46,647 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 22:26:46,647 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 22:26:46,647 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 22:26:46,648 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 22:26:46,648 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 22:26:46,648 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 22:26:46,648 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 22:26:46,649 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 22:26:46,649 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 22:26:46,649 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 22:26:47,974 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 2.0 events/sec
+2018-07-10 22:26:49,559 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:26:50,728 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:26:51,868 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:26:53,228 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:26:53,999 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 22:26:54,000 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
+2018-07-10 22:29:36,466 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 22:29:36,468 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 22:29:36,595 INFO n.a.d.j.g.JsonDataGenerator [main] Adding Log4JLogger Producer
+2018-07-10 22:29:36,602 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 22:29:36,602 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 22:29:36,672 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 22:29:36,673 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 22:29:36,673 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 22:29:36,674 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 22:29:36,674 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 22:29:36,674 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 22:29:36,674 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 22:29:36,674 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 22:29:36,674 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 22:29:36,675 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 22:29:36,675 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 22:29:36,675 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 22:29:36,675 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 22:29:36,675 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 22:29:36,676 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 22:29:36,676 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 22:29:36,676 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 22:29:38,696 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:29:40,320 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:29:41,837 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:29:42,675 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 22:29:42,676 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
+2018-07-10 22:34:49,556 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 22:34:49,556 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 22:34:49,681 INFO n.a.d.j.g.JsonDataGenerator [main] Adding Log4JLogger Producer
+2018-07-10 22:34:49,681 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 22:34:49,681 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 22:34:49,757 WARN n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.  Reason: For input string: "[yyyy/MM/ddTHH:mm:ss"
+2018-07-10 22:34:49,757 DEBUG n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.
+java.lang.NumberFormatException: For input string: "[yyyy/MM/ddTHH:mm:ss"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at net.acesinc.data.json.generator.types.NowBaseType.getTimeOffset(NowBaseType.java:43) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.BaseDateType.setLaunchArguments(BaseDateType.java:53) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.TypeHandlerFactory.getTypeHandler(TypeHandlerFactory.java:110) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.handleStringGeneration(RandomJsonGenerator.java:189) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:82) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:99) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.generateJson(RandomJsonGenerator.java:50) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.generateEvent(EventGenerator.java:243) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.executeStep(EventGenerator.java:135) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runSequential(EventGenerator.java:71) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runWorkflow(EventGenerator.java:53) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.run(EventGenerator.java:257) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+2018-07-10 22:34:51,095 WARN n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.  Reason: For input string: "[yyyy/MM/ddTHH:mm:ss"
+2018-07-10 22:34:51,095 DEBUG n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.
+java.lang.NumberFormatException: For input string: "[yyyy/MM/ddTHH:mm:ss"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at net.acesinc.data.json.generator.types.NowBaseType.getTimeOffset(NowBaseType.java:43) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.BaseDateType.setLaunchArguments(BaseDateType.java:53) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.TypeHandlerFactory.getTypeHandler(TypeHandlerFactory.java:110) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.handleStringGeneration(RandomJsonGenerator.java:189) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:82) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:99) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.generateJson(RandomJsonGenerator.java:50) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.generateEvent(EventGenerator.java:243) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.executeStep(EventGenerator.java:135) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runSequential(EventGenerator.java:71) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runWorkflow(EventGenerator.java:53) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.run(EventGenerator.java:257) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+2018-07-10 22:34:51,333 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 2.0 events/sec
+2018-07-10 22:34:52,159 WARN n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.  Reason: For input string: "[yyyy/MM/ddTHH:mm:ss"
+2018-07-10 22:34:52,159 DEBUG n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.
+java.lang.NumberFormatException: For input string: "[yyyy/MM/ddTHH:mm:ss"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at net.acesinc.data.json.generator.types.NowBaseType.getTimeOffset(NowBaseType.java:43) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.BaseDateType.setLaunchArguments(BaseDateType.java:53) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.TypeHandlerFactory.getTypeHandler(TypeHandlerFactory.java:110) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.handleStringGeneration(RandomJsonGenerator.java:189) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:82) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:99) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.generateJson(RandomJsonGenerator.java:50) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.generateEvent(EventGenerator.java:243) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.executeStep(EventGenerator.java:135) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runSequential(EventGenerator.java:71) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runWorkflow(EventGenerator.java:53) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.run(EventGenerator.java:257) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+2018-07-10 22:34:52,482 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:34:53,729 WARN n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.  Reason: For input string: "[yyyy/MM/ddTHH:mm:ss"
+2018-07-10 22:34:53,729 DEBUG n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.
+java.lang.NumberFormatException: For input string: "[yyyy/MM/ddTHH:mm:ss"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at net.acesinc.data.json.generator.types.NowBaseType.getTimeOffset(NowBaseType.java:43) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.BaseDateType.setLaunchArguments(BaseDateType.java:53) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.TypeHandlerFactory.getTypeHandler(TypeHandlerFactory.java:110) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.handleStringGeneration(RandomJsonGenerator.java:189) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:82) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:99) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.generateJson(RandomJsonGenerator.java:50) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.generateEvent(EventGenerator.java:243) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.executeStep(EventGenerator.java:135) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runSequential(EventGenerator.java:71) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runWorkflow(EventGenerator.java:53) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.run(EventGenerator.java:257) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+2018-07-10 22:34:54,112 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:34:55,349 WARN n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.  Reason: For input string: "[yyyy/MM/ddTHH:mm:ss"
+2018-07-10 22:34:55,349 DEBUG n.a.d.j.g.RandomJsonGenerator [Thread-1] Error creating type [ timestamp([yyyy/MM/ddTHH:mm:ss,yyyy/MM/ddTHH:mm:ss]) ]. Prop [ timestamp ] being ignored in output.
+java.lang.NumberFormatException: For input string: "[yyyy/MM/ddTHH:mm:ss"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_171]
+	at net.acesinc.data.json.generator.types.NowBaseType.getTimeOffset(NowBaseType.java:43) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.BaseDateType.setLaunchArguments(BaseDateType.java:53) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.types.TypeHandlerFactory.getTypeHandler(TypeHandlerFactory.java:110) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.handleStringGeneration(RandomJsonGenerator.java:189) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:82) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.processProperties(RandomJsonGenerator.java:99) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.RandomJsonGenerator.generateJson(RandomJsonGenerator.java:50) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.generateEvent(EventGenerator.java:243) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.executeStep(EventGenerator.java:135) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runSequential(EventGenerator.java:71) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.runWorkflow(EventGenerator.java:53) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.EventGenerator.run(EventGenerator.java:257) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+2018-07-10 22:34:55,349 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 22:34:55,349 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
+2018-07-10 22:46:21,590 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 22:46:21,590 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 22:46:21,715 INFO n.a.d.j.g.JsonDataGenerator [main] Adding File Logger with properties: {type=file, output.directory=/tmp/dropbox/test, file.prefix=MYPREFIX_, file.extension=.json}
+2018-07-10 22:46:21,715 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 22:46:21,715 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 22:46:21,799 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 22:46:21,800 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 22:46:21,800 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 22:46:21,800 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 22:46:21,801 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 22:46:21,801 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 22:46:21,801 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 22:46:21,801 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 22:46:21,802 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 22:46:21,802 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 22:46:21,802 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 22:46:21,802 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 22:46:21,802 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 22:46:21,803 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 22:46:21,803 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 22:46:21,803 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 22:46:21,803 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 22:46:23,565 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 2.0 events/sec
+2018-07-10 22:46:25,170 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:26,768 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:28,028 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:29,411 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:30,626 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:32,357 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:34,001 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 22:46:34,781 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 22:46:34,782 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
+2018-07-10 22:53:01,803 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 22:53:01,803 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 22:53:01,937 ERROR n.a.d.j.g.JsonDataGenerator [main] Error getting Simulation Config [ pcsConfig.json ]
+com.fasterxml.jackson.databind.JsonMappingException: Unrecognized character escape 'U' (code 85)
+ at [Source: java.io.BufferedInputStream@32464a14; line: 8, column: 28] (through reference chain: net.acesinc.data.json.generator.config.SimulationConfig["producers"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:210) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:189) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:262) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:217) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:25) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:523) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:95) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.findDeserializeAndSet(BeanPropertyMap.java:285) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:248) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:136) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3562) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2648) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at net.acesinc.data.json.generator.config.JSONConfigReader.readConfig(JSONConfigReader.java:42) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.getSimConfig(JsonDataGenerator.java:123) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.<init>(JsonDataGenerator.java:37) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.main(JsonDataGenerator.java:137) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized character escape 'U' (code 85)
+ at [Source: java.io.BufferedInputStream@32464a14; line: 8, column: 28]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1487) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._handleUnrecognizedCharacterEscape(ParserMinimalBase.java:495) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._decodeEscaped(UTF8StreamJsonParser.java:3046) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2331) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString(UTF8StreamJsonParser.java:2287) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:286) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:464) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringMap(MapDeserializer.java:485) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:342) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:26) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245) ~[jackson-databind-2.5.2.jar:2.5.2]
+	... 13 more
+2018-07-10 22:53:01,953 INFO n.a.d.j.g.JsonDataGenerator [Thread-1] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 22:58:16,505 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 22:58:16,505 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 22:58:16,630 ERROR n.a.d.j.g.JsonDataGenerator [main] Error getting Simulation Config [ pcsConfig.json ]
+com.fasterxml.jackson.databind.JsonMappingException: Unrecognized character escape 'd' (code 100)
+ at [Source: java.io.BufferedInputStream@32464a14; line: 8, column: 30] (through reference chain: net.acesinc.data.json.generator.config.SimulationConfig["producers"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:210) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:189) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:262) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:217) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:25) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:523) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:95) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.findDeserializeAndSet(BeanPropertyMap.java:285) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:248) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:136) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3562) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2648) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at net.acesinc.data.json.generator.config.JSONConfigReader.readConfig(JSONConfigReader.java:42) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.getSimConfig(JsonDataGenerator.java:123) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.<init>(JsonDataGenerator.java:37) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.main(JsonDataGenerator.java:137) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized character escape 'd' (code 100)
+ at [Source: java.io.BufferedInputStream@32464a14; line: 8, column: 30]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1487) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._handleUnrecognizedCharacterEscape(ParserMinimalBase.java:495) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._decodeEscaped(UTF8StreamJsonParser.java:3046) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2331) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString(UTF8StreamJsonParser.java:2287) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:286) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:464) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringMap(MapDeserializer.java:485) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:342) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:26) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245) ~[jackson-databind-2.5.2.jar:2.5.2]
+	... 13 more
+2018-07-10 22:58:16,645 INFO n.a.d.j.g.JsonDataGenerator [Thread-1] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 23:00:34,831 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 23:00:34,831 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 23:00:34,973 INFO n.a.d.j.g.JsonDataGenerator [main] Adding File Logger with properties: {type=file, output.directory=/tmp/dropbox/test2, file.prefix=MYPREFIX_, file.extension=.json}
+2018-07-10 23:00:34,979 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 23:00:34,979 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 23:00:35,042 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 23:00:36,820 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 2.0 events/sec
+2018-07-10 23:00:38,010 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:00:39,298 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:00:40,942 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:00:41,642 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 23:03:15,936 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 23:03:15,936 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 23:03:16,061 INFO n.a.d.j.g.JsonDataGenerator [main] Adding File Logger with properties: {type=file, output.directory=/tmp/dropbox/test2, file.prefix=MYPREFIX_, file.extension=.json}
+2018-07-10 23:03:16,077 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 23:03:16,077 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 23:03:16,139 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 23:03:16,155 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 23:03:16,155 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 23:03:17,802 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 2.0 events/sec
+2018-07-10 23:03:19,467 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:21,024 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:22,462 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:23,801 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:25,228 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:27,033 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:28,528 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:29,792 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:30,959 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:32,343 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:33,837 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:35,365 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:36,749 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:03:37,214 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 23:03:37,215 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
+2018-07-10 23:04:47,529 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 23:04:47,529 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 23:04:47,654 ERROR n.a.d.j.g.JsonDataGenerator [main] Error getting Simulation Config [ pcsConfig.json ]
+com.fasterxml.jackson.databind.JsonMappingException: Unrecognized character escape 'd' (code 100)
+ at [Source: java.io.BufferedInputStream@32464a14; line: 8, column: 30] (through reference chain: net.acesinc.data.json.generator.config.SimulationConfig["producers"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:210) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:189) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:262) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:217) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:25) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:523) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:95) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.findDeserializeAndSet(BeanPropertyMap.java:285) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:248) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:136) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3562) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2648) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at net.acesinc.data.json.generator.config.JSONConfigReader.readConfig(JSONConfigReader.java:42) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.getSimConfig(JsonDataGenerator.java:123) ~[json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.<init>(JsonDataGenerator.java:37) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+	at net.acesinc.data.json.generator.JsonDataGenerator.main(JsonDataGenerator.java:137) [json-data-generator-1.3.1-SNAPSHOT.jar:1.3.1-SNAPSHOT]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized character escape 'd' (code 100)
+ at [Source: java.io.BufferedInputStream@32464a14; line: 8, column: 30]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1487) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._handleUnrecognizedCharacterEscape(ParserMinimalBase.java:495) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._decodeEscaped(UTF8StreamJsonParser.java:3046) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2331) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString(UTF8StreamJsonParser.java:2287) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:286) ~[jackson-core-2.5.1.jar:2.5.1]
+	at com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla.deserialize(UntypedObjectDeserializer.java:464) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer._readAndBindStringMap(MapDeserializer.java:485) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:342) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.MapDeserializer.deserialize(MapDeserializer.java:26) ~[jackson-databind-2.5.2.jar:2.5.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245) ~[jackson-databind-2.5.2.jar:2.5.2]
+	... 13 more
+2018-07-10 23:04:47,670 INFO n.a.d.j.g.JsonDataGenerator [Thread-1] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 23:05:17,948 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ pcsConfig.json ]
+2018-07-10 23:05:17,964 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ pcsConfig.json ]
+2018-07-10 23:05:18,089 INFO n.a.d.j.g.JsonDataGenerator [main] Adding File Logger with properties: {type=file, output.directory=test2, file.prefix=MYPREFIX_, file.extension=.json}
+2018-07-10 23:05:18,089 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ pcs,pcsWorkflow.json ]
+2018-07-10 23:05:18,089 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2018-07-10 23:05:18,167 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2018-07-10 23:05:19,775 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 2.0 events/sec
+2018-07-10 23:05:21,270 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:05:22,617 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:05:24,294 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:05:25,601 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:05:27,208 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( pcs ) generated 1.0 events/sec
+2018-07-10 23:05:27,522 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2018-07-10 23:05:27,524 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
